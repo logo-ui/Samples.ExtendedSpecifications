@@ -5,7 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"             
              xmlns:cal="http://www.caliburnproject.org"
              xmlns:controls="clr-namespace:LogoUI.Samples.Client.Gui.Shared.Views.Controls;assembly=LogoUI.Samples.Client.Gui.Shared"
-             mc:Ignorable="d"              
+             xmlns:viewModels="clr-namespace:LogoUI.Samples.Client.Gui.Modules.Compliance.ViewModels"
+             mc:Ignorable="d"   
+             d:DataContext="{d:DesignInstance viewModels:ComplianceListViewModel}"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <ItemsControl ItemsSource="{Binding Items}"

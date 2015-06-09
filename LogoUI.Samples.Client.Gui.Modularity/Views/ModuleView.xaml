@@ -7,7 +7,9 @@
              xmlns:navigation="clr-namespace:LogoFX.UI.Navigation;assembly=LogoFX.UI.Navigation"
              xmlns:triggers="clr-namespace:LogoFX.UI.Views.Infra.Interactivity.Triggers;assembly=LogoFX.UI.Views.Infra"
              xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:viewModels="clr-namespace:LogoUI.Samples.Client.Gui.Modularity.ViewModels"
              mc:Ignorable="d"              
+             d:DataContext="{d:DesignInstance viewModels:ModuleViewModel}"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <Button Width="Auto" 

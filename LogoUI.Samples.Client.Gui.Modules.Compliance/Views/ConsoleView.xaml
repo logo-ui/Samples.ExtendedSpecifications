@@ -4,8 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:cal="http://www.caliburnproject.org"
-             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"            
-             mc:Ignorable="d"              
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:viewModels="clr-namespace:LogoUI.Samples.Client.Gui.Modules.Compliance.ViewModels"
+             mc:Ignorable="d"  
+             d:DataContext="{d:DesignInstance viewModels:ConsoleViewModel}"
              d:DesignHeight="300" 
              d:DesignWidth="300">
 

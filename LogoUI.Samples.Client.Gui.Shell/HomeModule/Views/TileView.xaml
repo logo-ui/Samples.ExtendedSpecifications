@@ -8,8 +8,10 @@
              xmlns:core="http://schemas.microsoft.com/expression/2010/interactions"
              xmlns:navigation="clr-namespace:LogoFX.UI.Navigation;assembly=LogoFX.UI.Navigation"
              xmlns:triggers="clr-namespace:LogoFX.UI.Views.Infra.Interactivity.Triggers;assembly=LogoFX.UI.Views.Infra"
-             xmlns:cal="http://www.caliburnproject.org"             
-             mc:Ignorable="d"              
+             xmlns:cal="http://www.caliburnproject.org"
+             xmlns:viewModels="clr-namespace:LogoUI.Samples.Client.Gui.Shell.HomeModule.ViewModels"
+             mc:Ignorable="d"   
+             d:DataContext="{d:DesignInstance viewModels:TileViewModel}"
              d:DesignHeight="300" d:DesignWidth="300">
     
     <UserControl.Resources>

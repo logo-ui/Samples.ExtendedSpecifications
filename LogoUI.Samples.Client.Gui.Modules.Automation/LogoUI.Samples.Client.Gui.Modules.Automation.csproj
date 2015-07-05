@@ -55,9 +55,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Caliburn.Micro.Core.2.0.2\lib\net45\Caliburn.Micro.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.Practices.IoC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DataDisplay\Lib\LogoFX\LogoFX.Practices.IoC.dll</HintPath>
+    <Reference Include="LogoFX.Practices.IoC">
+      <HintPath>..\Lib\LogoFX\LogoFX.Practices.IoC.dll</HintPath>
     </Reference>
     <Reference Include="LogoFX.UI.Modularity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

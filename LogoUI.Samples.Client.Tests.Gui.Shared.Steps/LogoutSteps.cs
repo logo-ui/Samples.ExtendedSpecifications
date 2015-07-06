@@ -2,7 +2,7 @@
 using Attest.Tests.Specflow;
 using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Client.Tests.Gui.Shared.Specs.Steps
+namespace LogoUI.Samples.Client.Tests.Gui.Shared.Steps
 {
     [Binding]
     class LogoutSteps : StepsBase<FakeFactory>

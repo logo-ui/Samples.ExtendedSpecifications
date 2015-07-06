@@ -3,7 +3,7 @@ using Attest.Tests.Specflow;
 using LogoUI.Samples.Client.Builders;
 using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Client.Tests.Gui.Shared.Specs.Steps
+namespace LogoUI.Samples.Client.Tests.Gui.Shared.Steps
 {
     [Binding]
     class ComplianceSteps : StepsBase<FakeFactory>
